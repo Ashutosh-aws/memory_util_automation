@@ -43,7 +43,7 @@ then
     # Send email alert
     email_subject="Memory utilization is above threshold"
     email_body="Memory utilization is currently at $memory_utilization%. Please check the server immediately."
-    recipient_email="recipient@example.com"
+    recipient_email="ashutosh.behera@tothenew.com"
     echo "$email_body" | mail -s "$email_subject" "$recipient_email"
 else
     echo "Memory utilization is below the threshold of $threshold%"
